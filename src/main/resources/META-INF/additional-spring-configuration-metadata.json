@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "bcs.bw.client_id",
+      "type": "java.lang.String",
+      "description": "Description for bcs.bw.client_id."
+  }
+] }

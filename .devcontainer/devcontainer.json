@@ -1,0 +1,29 @@
+{
+	"name": "Java",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"VARIANT": "11-bullseye",
+			"INSTALL_MAVEN": "true",
+			"INSTALL_GRADLE": "false",
+			"NODE_VERSION": "none"
+		}
+	},
+	"settings": {
+		//	"java.home": "/docker-java-home"
+	},
+	"containerEnv": {
+		"JAVA_HOME": "/docker-java-home"
+	},
+	"extensions": [
+		"vscjava.vscode-java-pack",
+		"redhat.fabric8-analytics",
+		"github.copilot",
+		"gabrielbb.vscode-lombok",
+		"redhat.vscode-commons",
+		"pivotal.vscode-boot-dev-pack",
+		"redhat.vscode-xml",
+		"redhat.vscode-yaml"
+	],
+	"remoteUser": "vscode",
+}

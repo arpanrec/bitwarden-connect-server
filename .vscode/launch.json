@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BitwardenConnectServerApplication",
+            "request": "launch",
+            "mainClass": "org.sourceshift.bcs.BitwardenConnectServerApplication",
+            "projectName": "bcs"
+        }
+    ]
+}
